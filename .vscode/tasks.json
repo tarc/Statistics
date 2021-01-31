@@ -37,6 +37,15 @@
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "test",
+                "${workspaceFolder}/Domain.Tests/Domain.Tests.csproj"
+            ]
         }
     ]
 }
